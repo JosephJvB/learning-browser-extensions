@@ -1,7 +1,5 @@
 # bye bye paywall
 
-I still sometimes get redirected
-
 ### What is causing the redirect
 
 Even showing one hidden text element can trigger a redirect
@@ -10,7 +8,7 @@ It seems like if I have been redirected to premium-sub page once, then 'go back'
 
 Opening in a new tab, new browser, new article is more likely to avoid redirect.
 
-have tried:
+have tried these solutions. For some reason, it seems like "loop w/ timeout" is slightly more likely to succeed. Might be just my own superstiton though.
 - simple loop and change:
 ```js
 hiddenTextEls.forEach(e => {
