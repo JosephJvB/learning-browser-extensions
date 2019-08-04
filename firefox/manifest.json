@@ -9,20 +9,19 @@
     "48": "/nz-herald-icon.ico"
   },
 
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "48": "/nz-herald-icon.ico"
+    },
+    "default_title": "Herald Unblocker"
+  },
+  
   "content_scripts": [
     {
       "matches": ["*://www.nzherald.co.nz/*"],
       "js": ["index.js"]
     }
-  ],
-  
-  "browser_action": {
-    "browser_style": true,
-    "default_icon": {
-      "48": "/palette.svg"
-    },
-    "default_title": "Herald Unblocker"
-  }
-
+  ]
 
 }

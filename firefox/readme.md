@@ -1,1 +1,3 @@
 # Firefox
+
+url = about:debugging
