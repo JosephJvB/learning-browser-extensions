@@ -1,5 +1,8 @@
 # bye bye paywall
 
+### Todo
+- Allow user turn extension on and off
+
 ### What is causing the redirect
 
 Even showing one hidden text element can trigger a redirect

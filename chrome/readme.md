@@ -1,0 +1,3 @@
+# Chrome
+
+url = chrome://extensions/
